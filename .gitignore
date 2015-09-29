@@ -1,0 +1,8 @@
+node_modules
+*.log
+config.json
+pm2.json
+.idea
+dist/js
+dist/css
+dist/font
