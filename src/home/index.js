@@ -1,4 +1,5 @@
+require('./index.css');
 
-$(function() {
-    console.log('home');
+$(function () {
+
 })
