@@ -1,17 +1,4 @@
-body{
-    padding:0;
-    margin:0;
-}
 
-.Site {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-    -webkit-box-orient: vertical;
-}
+@import "../lib/css/bootstrap.css";
 
-.Site-content {
-    flex: 1;
-    background:red;
 
-}

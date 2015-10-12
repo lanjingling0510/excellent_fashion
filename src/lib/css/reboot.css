@@ -1,0 +1,43 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: var(--font-size-root);
+}
+
+body {
+    font-family: var(--font-family-base);
+    background-color: var(--body-bg);
+    font-size: var(--font-size-base);
+    line-height: var(--line-height);
+    color: var(--body-color);
+    background-color: var(--body-bg);
+}
+
+a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+a:--link-active {
+    color: var(--link-hover-color);
+    text-decoration: underline;
+}
+
+img {
+    vertical-align: middle;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: .0625rem solid gba(0,0,0,.1);
+}
