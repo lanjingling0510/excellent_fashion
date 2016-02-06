@@ -1,5 +1,0 @@
-require('./index.css');
-
-$(function () {
-
-})

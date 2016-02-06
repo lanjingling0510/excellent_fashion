@@ -1,0 +1,62 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+body {
+    overflow: hidden;
+}
+
+.mpage, .Liz-main-container {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+.mpage .anitOut {
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+
+.Liz-main-container {
+    z-index: 1;
+}
+.Liz-screen {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.logAnim-toRightBotton {
+    animation: log-toRightBotton 1.3s ease 1s both;
+}
+.logAnim-toRight {
+    animation: log-toRight 1.3s ease 1s both;
+}
+.logAnim-toBotton {
+    animation: log-toBotton 1.3s ease 1s both;
+}
+.logAnim-toTop {
+    animation: log-toTop 1.3s ease 1s both;
+}
+.logAnim-toLeftBotton {
+    animation: log-toLeftBotton 1.3s ease 1s both;
+}
+.logAnim-toLeftTop {
+    animation: log-toLeftTop 1.3s ease 1s both;
+}
+.logList {
+    animation: toTop 1.3s ease 2s both;
+    width: 254px;
+}
+.logImg {
+    animation: fadeIn 1s ease both;
+}
+.arr-right, .arr-left {
+    cursor: pointer;
+}
